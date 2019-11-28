@@ -1,3 +1,5 @@
+def a
+
 pipeline {
    agent any
 libraries {
