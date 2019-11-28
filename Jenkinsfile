@@ -1,11 +1,9 @@
-def a
-
 pipeline {
    agent any
 libraries {
   lib('cal-lib@master')
 }
-	 a = cal-lib.cal(5,6)
+	def a = cal-lib.cal(5,6)
 	
    stages {
 	stage('Demo') {
