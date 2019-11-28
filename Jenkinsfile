@@ -1,4 +1,4 @@
-def a = cal-lib.cal(5,6)
+def a = cal-lib.A.cal(5,6)
 
 pipeline {
    agent any
