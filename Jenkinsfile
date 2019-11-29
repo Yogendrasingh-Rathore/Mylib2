@@ -9,7 +9,7 @@ libraries {
 	 stages {
 	stage('Demo') {
           steps {
-            pipeline = new add()
+            pipeline = new cal-lib.add()
 	    pipeline.call('Yuvi')
           }
         }
