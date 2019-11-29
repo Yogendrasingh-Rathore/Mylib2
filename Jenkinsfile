@@ -9,7 +9,7 @@ libraries {
 	stage('Demo') {
           steps {
 
-	    add           
+	    cal-lib.add           
             
           }
         }
