@@ -7,7 +7,7 @@ libraries {
 }
 	
 	node('slave') {
-    		pipeline = load 'Yogendrasingh-Rathore/cal-lib/vars/add.groovy'
+    		pipeline = load 'add.groovy'
     		pipeline.call(5,9)
 	}
 }
