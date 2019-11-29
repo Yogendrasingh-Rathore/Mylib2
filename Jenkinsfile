@@ -1,5 +1,3 @@
-def a = cal-lib.A.call(5,6)
-
 pipeline {
    agent any
 libraries {
@@ -10,7 +8,7 @@ libraries {
    stages {
 	stage('Demo') {
           steps {
-           
+	    cal-lib.call(5,6)           
             echo "Addition of 5 and 6 is ${a}"
           }
         }
