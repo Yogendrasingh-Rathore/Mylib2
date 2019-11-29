@@ -9,7 +9,7 @@ libraries {
 	stage('Demo') {
           steps {
 
-	    add call(5,6)           
+	    add           
             
           }
         }
