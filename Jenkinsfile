@@ -9,7 +9,8 @@ libraries {
 	 stages {
 	stage('Demo') {
           steps {
-            add 'Yuvi'
+            pipeline = new add()
+	    pipeline.call('Yuvi')
           }
         }
    }
