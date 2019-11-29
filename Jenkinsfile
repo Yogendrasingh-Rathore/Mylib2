@@ -9,7 +9,7 @@ libraries {
 	 stages {
 	stage('Demo') {
           steps {
-            hello 'Yuvi'
+            add 'Yuvi'
           }
         }
    }
