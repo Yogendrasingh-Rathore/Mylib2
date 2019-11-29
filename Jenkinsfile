@@ -7,7 +7,7 @@ libraries {
 }
 	
 	node('slave') {
-    		pipeline = load 'add.groovy'
+    		pipeline = load 'add'
     		pipeline.call(5,9)
 	}
 }
